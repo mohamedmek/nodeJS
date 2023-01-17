@@ -1,0 +1,99 @@
+
+
+.hh {
+  margin-bottom: 20px;
+
+}
+.hh ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 100%;
+    max-height: 50px;
+  }
+  
+.hh  li {
+    float: left;
+  }
+  
+.hh  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+.hh li a:hover {
+    background-color:brown;
+  }
+
+#logo {
+    width: 95px;
+    height: 50px;
+    float: Right;
+    
+}
+
+
+.float-container {
+    /* border: 3px solid #333333; */
+    padding: 20px;
+
+
+}
+
+.float-child {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid red; */
+}  
+
+
+.float-chil {
+    width: 45%;
+    float: right;
+    padding: 10px;
+    /* border: 2px solid rgb(33, 18, 117); */
+} 
+
+.float-chi {
+    width: 100%;
+    float:left;
+    padding: 10px;
+    /* border: 2px solid green; */
+} 
+
+#registrtion_div {
+  margin: auto;
+  width: 60%;
+  border: 3px solid rgb(18, 100, 100);
+  padding: 10px;
+  
+}
+
+footer {
+  /* position: absolute; */
+  position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 100px;
+    clear: both;
+
+}
+
+.td2style {
+
+  background-color:rgba(121, 190, 211, 0.582); width: 300px;
+}
+
+label{
+  float: right; padding: 10px;
+}
